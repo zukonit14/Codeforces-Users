@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <RelativeLayout
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/welcome"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to Codeforces by Zuk\nThis is your Profile you searched for:"
+            android:textColor="#000"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            app:fontFamily="@font/amaranth"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/handle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/welcome"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:textColor="#f00"
+            android:textSize="40sp"
+            app:fontFamily="@font/alfa_slab_one"
+            android:textAlignment="center"/>
+        <TextView
+            android:id="@+id/name"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="30sp"
+            android:textColor="#000"
+            android:layout_below="@+id/handle"/>
+        <TextView
+            android:id="@+id/rating"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="30sp"
+            android:textColor="#000"
+            android:layout_below="@+id/name" />
+        <TextView
+            android:id="@+id/rank"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="30sp"
+            android:textColor="#000"
+            android:layout_below="@+id/rating" />
+        <TextView
+            android:id="@+id/maxrating"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="30sp"
+            android:textColor="#000"
+            android:layout_below="@+id/rank" />
+        <TextView
+            android:id="@+id/organisation"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="30sp"
+            android:textColor="#000"
+            android:layout_below="@+id/maxrating" />
+        <TextView
+            android:id="@+id/city"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="30sp"
+            android:textColor="#000"
+            android:layout_below="@+id/organisation" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sorry for No UI\nApp for testing Purpose"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:layout_below="@id/city"
+            android:layout_marginTop="20dp"/>
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>

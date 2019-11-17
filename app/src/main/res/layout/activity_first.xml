@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstActivity">
+
+    <TextView
+        android:id="@+id/enter"
+        android:layout_marginTop="170dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter the codeforces Username:"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:textColor="#000"
+        android:textAlignment="center"/>
+    <EditText
+        android:id="@+id/username"
+        android:layout_marginTop="50dp"
+        android:layout_width="320dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="50dp"
+        android:layout_below="@+id/enter"
+        android:hint="zukonit14"/>
+    <TextView
+        android:id="@+id/note"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Note: If You dont know any try searching for
+        tourist , buzz_95 , zukonit14.\nPls be case-sensitive.Enjoy!"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:layout_below="@+id/username"/>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/note"
+        android:text="ENTER"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        />
+</RelativeLayout>
